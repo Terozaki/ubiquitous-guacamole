@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     457571278852649985       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
+  wokwi_id:     457573490746716161       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Name Serial Printer"      # Project title
   author:       "Lukas Brookes-Tee"      # Your name
   discord:      "Terozaki"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "This design prints 5 characters to the serial monitor"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -22,8 +22,8 @@ pinout:
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[6]: "This input sends a signal to the multiplexors"
+  ui[7]: "This input enables output to the serial monitor"
 
   # Outputs
   uo[0]: ""
@@ -33,7 +33,7 @@ pinout:
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
-  uo[7]: ""
+  uo[7]: "This output transmits the output signal to the receiver pin of the Arduino"
 
   # Bidirectional pins
   uio[0]: ""
