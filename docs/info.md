@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This software will display 4 selected characters (and one newline character) via the serial monitor on an Arduino.
 
 ## How to test
 
-Explain how to use your project
+The 7th input switch should be positioned to on to allow the multiplexors to receive a signal.
+The 8th input switch should be positioned to on for the serial monitor output to be started. 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+This project uses an Arduino Uno for its serial monitor.
